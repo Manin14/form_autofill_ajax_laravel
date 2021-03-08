@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 08, 2021 at 04:13 AM
+-- Generation Time: Mar 08, 2021 at 08:23 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ajax_autofill`
+-- Database: `ajax_autofill_multiple`
 --
 
 -- --------------------------------------------------------
@@ -44,9 +44,9 @@ CREATE TABLE `latihan_autofill` (
 --
 
 INSERT INTO `latihan_autofill` (`nim`, `nama`, `jeniskelamin`, `jurusan`, `notelp`, `email`, `alamat`, `created_at`, `updated_at`) VALUES
-('1', 'satu', 'satu', 'satu', 'satu', 'satu', 'satu', '2021-03-08 02:48:31', '2021-03-08 02:48:31'),
-('2', 'dua', 'dua', 'dua', 'dua', 'dua', 'dua', '2021-03-08 02:48:31', '2021-03-08 02:48:31'),
-('3', 'manin', 'pria', 'informatika', '08986949835', 'manin@gmail.com', 'bogor', '2021-03-08 02:48:31', '2021-03-08 02:48:31');
+('1', 'seka', 'pria', 'Industri', '987654321', 'eka@gmail.com', 'Depok', '2021-03-08 02:48:31', '2021-03-08 02:48:31'),
+('2', 'andi', 'pria', 'Sistem informasi', '12345678', 'andi@gmail.com', 'jakarta', '2021-03-08 02:48:31', '2021-03-08 02:48:31'),
+('3', 'jaka', 'pria', 'informatika', '08986949835', 'jaka@gmail.com', 'bogor', '2021-03-08 02:48:31', '2021-03-08 02:48:31');
 
 -- --------------------------------------------------------
 
